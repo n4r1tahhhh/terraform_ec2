@@ -3,6 +3,7 @@ EC2にSSH接続という誰もが通る道をTerraformでもやってみる
 ```
 ssh-keygen -t rsa -b 4096 -f test.pem
 ```
+passphraseはとりあえず無視してenter
 ## 2.いつもの
 ```
 terraform init
